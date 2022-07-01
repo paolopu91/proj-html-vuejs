@@ -5,17 +5,43 @@
     <div>
         <div class="container-fluid">
 
-            <div class="row row-cols-2">
+            <div class="row d-flex">
                 <!-- col-left -->
                 <!-- here i will use logo text and buttons -->
-                <div class="col flex-grow-1">
-                    <img class="logoHeader" src="../../public/images/logotype.png" alt="">
+                <div class="my-left-col">
+                    <div>
+                        <img class="logoHeader" src="../../public/images/logotype.png" alt="">
+                    </div>
+                    <div class="d-flex flex-column position-absolute my-title-header">
+                        
+                        <h6 class="d-flex">
+                            <div class="line"></div>
+                            ALWAYS THE BEST WAY YOU NEED IT
+                        </h6>
+
+                        <h1>
+                            THE BEST BUSINESS CONSULTING
+                        </h1>
+
+                        <!-- container button header -->
+                        <div>
+                            <button class="header-button px-4 py-2">
+                                READ MORE
+                            </button>
+
+                            <span class="mx-5 header-button-play">
+                                <i class="change-color fa-solid fa-play"></i>
+                            </span>
+
+                        </div>
+                    </div>
                 </div>
 
 
                 <!-- col-right -->
                 <!-- here i will use image and nav link -->
-                <div class="col">
+                <div class="my-right-col">
+                    
                     <!-- image of my col right -->
                     <img class="imageHeader" src="../../public/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
 
@@ -23,32 +49,29 @@
                     <!-- i will stamp this with v-for  -->
                     <div>
 
-                        <ul class="list-unstyled my-nav-link d-flex">
+                        <ul class="list-unstyled my-nav-links d-flex">
 
-                            <li>
-                                <a href="">HOME</a>
+                            <li class="px-2 ">
+                                <a class="text-white nav-link" href="#">HOME</a>
                             </li>
-                            <li>
-                                <a href="">ABOUT</a>
+                            <li class="px-2 ">
+                                <a class="text-white" href="#">ABOUT</a>
                             </li>
-                            <li>
-                                <a href="">PROJECTS</a>
+                            <li class="px-2 ">
+                                <a class="text-white" href="#">PROJECTS</a>
                             </li>
-                            <li>
-                                <a href="">SERVICES</a>
+                            <li class="px-2 ">
+                                <a class="text-white" href="#">SERVICES</a>
                             </li>
-                            <li>
-                                <a href="">BLOG</a>
+                            <li class="px-2 ">
+                                <a class="text-white" href="#">BLOG</a>
                             </li>
-                            <li>
-                                <a href="">CONTACT</a>
-                            </li>
-                            
+                            <li class="px-2 ">
+                                <a class="text-white" href="#">CONTACT</a>
+                            </li>      
                         </ul>
-
                     </div>
                 </div>
-
             </div>    
         </div>
     </div>
@@ -69,17 +92,51 @@ export default{
 </script>
 
 <!-- styles css/scss -->
-<style scoped>
+<style lang="scss" scoped>
 .logoHeader{
-    width: 100px;
+    width: 150px;
+}
+.my-left-col{
+    width: 30%;
+}
+.my-right-col{
+    width:70%;
+    padding-right: 0;
 }
 .imageHeader{
    width: 100%;
 }
-.my-nav-link{
+.my-nav-links{
     position: absolute;
     top: 0;
     right: 50px;
     z-index: 999;
+    font-size: 15px;
 }
+.line{
+    border-bottom: 5px solid #39FFBF;
+    width: 50px;
+}
+.my-title-header{
+    margin-top: 10rem;
+}
+h1{
+    font-size: 5.5rem;
+    padding-right: 20rem;
+}
+.header-button{
+    background-color: #39FFBF;
+    color: black;
+    font-size: 20px;
+    border-style: none;
+}
+.change-color{
+    color: #39FFBF;
+}
+.header-button-play{
+    border: 1px solid white;
+    padding: 1rem;
+    border-radius: 50%;
+}
+
 </style>
