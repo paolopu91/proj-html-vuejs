@@ -13,9 +13,10 @@
                         <img class="logoHeader" src="../../public/images/logotype.png" alt="">
                     </div>
                     <div class="d-flex flex-column position-absolute my-title-header">
+
                         
                         <h6 class="d-flex">
-                            <div class="line"></div>
+                            <div class="line mx-2"></div>
                             ALWAYS THE BEST WAY YOU NEED IT
                         </h6>
 
@@ -51,24 +52,9 @@
 
                         <ul class="list-unstyled my-nav-links d-flex">
 
-                            <li class="px-2 ">
-                                <a class="text-white nav-link" href="#">HOME</a>
+                            <li class="px-2 " v-for="(link,i) in navLinks" :key="i">
+                                <a class="text-white nav-link" href="#">{{link.name}}</a>
                             </li>
-                            <li class="px-2 ">
-                                <a class="text-white" href="#">ABOUT</a>
-                            </li>
-                            <li class="px-2 ">
-                                <a class="text-white" href="#">PROJECTS</a>
-                            </li>
-                            <li class="px-2 ">
-                                <a class="text-white" href="#">SERVICES</a>
-                            </li>
-                            <li class="px-2 ">
-                                <a class="text-white" href="#">BLOG</a>
-                            </li>
-                            <li class="px-2 ">
-                                <a class="text-white" href="#">CONTACT</a>
-                            </li>      
                         </ul>
                     </div>
                 </div>
@@ -85,11 +71,33 @@ export default{
     data(){
         return{
             name:"The Header",
+            navLinks:[
+                {
+                    name:"HOME"
+                },
+                {
+                    name:"ABOUT"
+                },
+                {
+                    name:"PROJECT"
+                },
+                {
+                    name:"SERVICES"
+                },
+                {
+                    name:"BLOG"
+                },
+                {
+                    name:"CONTACT"
+                },
+            ]
         }
     },
     
 }
 </script>
+
+
 
 <!-- styles css/scss -->
 <style lang="scss" scoped>
@@ -138,5 +146,4 @@ h1{
     padding: 1rem;
     border-radius: 50%;
 }
-
 </style>
