@@ -49,9 +49,7 @@
                     <!-- my nav links -->
                     <!-- i will stamp this with v-for  -->
                     <div>
-
                         <ul class="list-unstyled my-nav-links d-flex">
-
                             <li class="px-2 " v-for="(link,i) in navLinks" :key="i">
                                 <a class="text-white nav-link" href="#">{{link.name}}</a>
                             </li>
