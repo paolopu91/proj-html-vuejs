@@ -3,7 +3,7 @@
 <template>
     <!-- div container of all my components -->
     <div class="section no-padding-right">
-        <div class="container-fluid no-padding-right">
+        <div class="container-fluid no-padding-right padding-top-info-container">
             <h5 class="d-flex">
                 OUR CONSULTANTS CAN HELP YOU
                 <div class="line-first-section ms-2"></div>
@@ -128,6 +128,9 @@ export default{
     padding: 3rem;
     height: 95vh;
 }
+.padding-top-info-container{
+    padding-top: 6rem;
+}
 .no-padding-right{
     padding-right: 0;
 }
@@ -151,11 +154,13 @@ export default{
 }
 .title-info{
     margin-left: 6rem;
+    color: #242340;
 }
 .overview-info{
     padding-left: 6rem;
     padding-right: 6rem;
     font-size: 15px;
+    color: rgb(155, 155, 155);
 }
 
 </style>
