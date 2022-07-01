@@ -5,7 +5,7 @@
 
     <!-- main component -->
     <TheMain></TheMain>
-    
+
     <!-- footer component -->
     <TheFooter></TheFooter>
 
@@ -30,6 +30,7 @@ export default {
 
 <style lang="scss">
 #app {
-
+  background-color: #242340;
+  color: white;
 }
 </style>

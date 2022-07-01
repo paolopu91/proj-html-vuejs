@@ -3,7 +3,7 @@
 <template>
     <!-- div container of all my components -->
     <div>
-        qui andrà il mio footer della pagina
+        <!-- qui andrà il mio footer della pagina -->
     </div>
 </template>
 

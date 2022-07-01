@@ -3,7 +3,7 @@
 <template>
     <!-- div container of all my components -->
     <div>
-        qui andrà tutto il contenuto principale della mia pagina
+        <!-- qui andrà tutto il contenuto principale della mia pagina -->
     </div>
 </template>
 
