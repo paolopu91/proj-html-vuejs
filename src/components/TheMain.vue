@@ -2,8 +2,109 @@
 <!-- html of my project -->
 <template>
     <!-- div container of all my components -->
-    <div>
-        <!-- qui andrà tutto il contenuto principale della mia pagina -->
+    <div class="section no-padding-right">
+        <div class="container-fluid no-padding-right">
+            <h5 class="d-flex">
+                OUR CONSULTANTS CAN HELP YOU
+                <div class="line-first-section ms-2"></div>
+            </h5>
+            
+
+            <!-- container info -->
+            <div class="container mt-5">
+                <div class="row row-cols-2">
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="col-2">
+                                <span>
+                                    <i class="fa-solid fa-chart-line"></i>
+                                </span>
+                            </div>
+
+                            <div class="col-10">
+                                <h6 class="title-info">
+                                    STATISTICAL CONSULTING
+                                </h6>
+
+                                <p class="overview-info">
+                                    When, while lovelly valley teems with vapour
+                                    around meand eridian sun strikes the upper
+                                    impenetrable foliage of my trees, and but a
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="col-2">
+                                <span>
+                                    <i class="fa-solid fa-bullhorn"></i>
+                                </span>
+                            </div>
+
+                            <div class="col-10">
+                                <h6 class="title-info">
+                                    DIGITAL CONSULTING
+                                </h6>
+
+                                <p class="overview-info">
+                                    When, while lovelly valley teems with vapour
+                                    around meand eridian sun strikes the upper
+                                    impenetrable foliage of my trees, and but a
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="col-2">
+                                <span>
+                                    <i class="fa-solid fa-wallet"></i>
+                                </span>
+                            </div>
+
+                            <div class="col-10">
+                                <h6 class="title-info">
+                                    BANKING CONSULTING
+                                </h6>
+
+                                <p class="overview-info">
+                                    When, while lovelly valley teems with vapour
+                                    around meand eridian sun strikes the upper
+                                    impenetrable foliage of my trees, and but a
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+
+                    <div class="col-6">
+                        <div class="d-flex">
+                            <div class="col-2">
+                                <span>
+                                    <i class="fa-solid fa-bullseye"></i>
+                                </span>
+                            </div>
+
+                            <div class="col-10">
+                                <h6 class="title-info">
+                                    ENTERPRISE CONSULTING
+                                </h6>
+
+                                <p class="overview-info">
+                                    When, while lovelly valley teems with vapour
+                                    around meand eridian sun strikes the upper
+                                    impenetrable foliage of my trees, and but a
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+
+
+                </div>
+
+            </div>
+        </div>
     </div>
 </template>
 
@@ -20,5 +121,28 @@ export default{
 </script>
 
 <!-- styles css/scss -->
-<style>
+<style lang="scss" scoped>
+.section{
+    background-color: white;
+    color: black;
+    padding: 3rem;
+}
+.no-padding-right{
+    padding-right: 0;
+}
+.line-first-section{
+    margin-bottom: 15px;
+    border-bottom: 5px solid #39FFBF;
+    width: 67%;
+    vertical-align: middle;
+}
+// .title-info{
+//     margin-left: 6rem;
+// }
+// .overview-info{
+//     padding-left: 6rem;
+//     padding-right: 6rem;
+//     font-size: 15px;
+// }
+
 </style>

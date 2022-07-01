@@ -2,7 +2,7 @@
 <!-- html of my project -->
 <template>
     <!-- div container of all my components -->
-    <div>
+    <div class="header-section">
         <div class="container-fluid">
 
             <div class="row d-flex">
@@ -16,7 +16,7 @@
 
                         
                         <h6 class="d-flex">
-                            <div class="line mx-2"></div>
+                            <div class="line me-3"></div>
                             ALWAYS THE BEST WAY YOU NEED IT
                         </h6>
 
@@ -101,6 +101,9 @@ export default{
 
 <!-- styles css/scss -->
 <style lang="scss" scoped>
+.header-section{
+    background-color: #242340;
+}
 .logoHeader{
     width: 150px;
 }
@@ -113,6 +116,7 @@ export default{
 }
 .imageHeader{
    width: 100%;
+   height: 100vh;
 }
 .my-nav-links{
     position: absolute;
