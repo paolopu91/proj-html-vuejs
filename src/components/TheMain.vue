@@ -14,10 +14,10 @@
             <div class="container mt-5">
                 <div class="row row-cols-2">
                     <div class="col-6">
-                        <div class="d-flex">
+                        <div class="d-flex mb-5">
                             <div class="col-2">
-                                <span>
-                                    <i class="fa-solid fa-chart-line"></i>
+                                <span class="logo-info">
+                                    <i class="size-logo fa-solid fa-chart-line"></i>
                                 </span>
                             </div>
 
@@ -36,10 +36,10 @@
                     </div>
                     
                     <div class="col-6">
-                        <div class="d-flex">
+                        <div class="d-flex mb-5">
                             <div class="col-2">
-                                <span>
-                                    <i class="fa-solid fa-bullhorn"></i>
+                                <span class="logo-info">
+                                    <i class="size-logo fa-solid fa-bullhorn"></i>
                                 </span>
                             </div>
 
@@ -57,10 +57,10 @@
                         </div>    
                     </div>
                     <div class="col-6">
-                        <div class="d-flex">
+                        <div class="d-flex mb-5">
                             <div class="col-2">
-                                <span>
-                                    <i class="fa-solid fa-wallet"></i>
+                                <span class="logo-info">
+                                    <i class="size-logo fa-solid fa-wallet"></i>
                                 </span>
                             </div>
 
@@ -79,10 +79,10 @@
                     </div>
 
                     <div class="col-6">
-                        <div class="d-flex">
+                        <div class="d-flex mb-5">
                             <div class="col-2">
-                                <span>
-                                    <i class="fa-solid fa-bullseye"></i>
+                                <span class="logo-info">
+                                    <i class="size-logo fa-solid fa-bullseye"></i>
                                 </span>
                             </div>
 
@@ -126,6 +126,7 @@ export default{
     background-color: white;
     color: black;
     padding: 3rem;
+    height: 95vh;
 }
 .no-padding-right{
     padding-right: 0;
@@ -136,13 +137,25 @@ export default{
     width: 67%;
     vertical-align: middle;
 }
-// .title-info{
-//     margin-left: 6rem;
-// }
-// .overview-info{
-//     padding-left: 6rem;
-//     padding-right: 6rem;
-//     font-size: 15px;
-// }
+.logo-info{
+    text-align: center;
+    border: 1px solid black;
+    border-radius: 100%;
+    background-color: #F81D39;
+    padding: 1rem;
+    color: white;
+}
+.size-logo{
+    font-size: 30px;
+    vertical-align: text-top;
+}
+.title-info{
+    margin-left: 6rem;
+}
+.overview-info{
+    padding-left: 6rem;
+    padding-right: 6rem;
+    font-size: 15px;
+}
 
 </style>
