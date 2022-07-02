@@ -1,122 +1,130 @@
 
 <!-- html of my project -->
 <template>
-    <!-- div container of all my components -->
-    <div class="section no-padding-right">
-        <div class="container-fluid no-padding-right padding-top-info-container">
-            <h5 class="d-flex">
-                OUR CONSULTANTS CAN HELP YOU
-                <div class="line-first-section ms-2"></div>
-            </h5>
-            
 
-            <!-- container info -->
-            <div class="container mt-5">
-                <div class="row row-cols-2">
-                    <div class="col-6">
-                        <div class="d-flex mb-5">
-                            <div class="col-2">
-                                <span class="logo-info">
-                                    <i class="size-logo fa-solid fa-chart-line"></i>
-                                </span>
-                            </div>
+    <div>
+        <!-- div container of all my components -->
+        <div class="section no-padding-right">
+            <div class="container-fluid no-padding-right padding-top-info-container">
+                <h5 class="d-flex">
+                    OUR CONSULTANTS CAN HELP YOU
+                    <div class="line-first-section ms-2"></div>
+                </h5>
+                
 
-                            <div class="col-10">
-                                <h6 class="title-info">
-                                    STATISTICAL CONSULTING
-                                </h6>
+                <!-- container info -->
+                <div class="container mt-5">
+                    <div class="row row-cols-2">
+                        <div class="col-6">
+                            <div class="d-flex mb-5">
+                                <div class="col-2">
+                                    <span class="logo-info">
+                                        <i class="size-logo fa-solid fa-chart-line"></i>
+                                    </span>
+                                </div>
 
-                                <p class="overview-info">
-                                    When, while lovelly valley teems with vapour
-                                    around meand eridian sun strikes the upper
-                                    impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>    
+                                <div class="col-10">
+                                    <h6 class="title-info">
+                                        STATISTICAL CONSULTING
+                                    </h6>
+
+                                    <p class="overview-info">
+                                        When, while lovelly valley teems with vapour
+                                        around meand eridian sun strikes the upper
+                                        impenetrable foliage of my trees, and but a
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+                        
+                        <div class="col-6">
+                            <div class="d-flex mb-5">
+                                <div class="col-2">
+                                    <span class="logo-info">
+                                        <i class="size-logo fa-solid fa-bullhorn"></i>
+                                    </span>
+                                </div>
+
+                                <div class="col-10">
+                                    <h6 class="title-info">
+                                        DIGITAL CONSULTING
+                                    </h6>
+
+                                    <p class="overview-info">
+                                        When, while lovelly valley teems with vapour
+                                        around meand eridian sun strikes the upper
+                                        impenetrable foliage of my trees, and but a
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+                        <div class="col-6">
+                            <div class="d-flex mb-5">
+                                <div class="col-2">
+                                    <span class="logo-info">
+                                        <i class="size-logo fa-solid fa-wallet"></i>
+                                    </span>
+                                </div>
+
+                                <div class="col-10">
+                                    <h6 class="title-info">
+                                        BANKING CONSULTING
+                                    </h6>
+
+                                    <p class="overview-info">
+                                        When, while lovelly valley teems with vapour
+                                        around meand eridian sun strikes the upper
+                                        impenetrable foliage of my trees, and but a
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+
+                        <div class="col-6">
+                            <div class="d-flex mb-5">
+                                <div class="col-2">
+                                    <span class="logo-info">
+                                        <i class="size-logo fa-solid fa-bullseye"></i>
+                                    </span>
+                                </div>
+
+                                <div class="col-10">
+                                    <h6 class="title-info">
+                                        ENTERPRISE CONSULTING
+                                    </h6>
+
+                                    <p class="overview-info">
+                                        When, while lovelly valley teems with vapour
+                                        around meand eridian sun strikes the upper
+                                        impenetrable foliage of my trees, and but a
+                                    </p>
+                                </div>
+                            </div>    
+                        </div>
+
+
                     </div>
-                    
-                    <div class="col-6">
-                        <div class="d-flex mb-5">
-                            <div class="col-2">
-                                <span class="logo-info">
-                                    <i class="size-logo fa-solid fa-bullhorn"></i>
-                                </span>
-                            </div>
-
-                            <div class="col-10">
-                                <h6 class="title-info">
-                                    DIGITAL CONSULTING
-                                </h6>
-
-                                <p class="overview-info">
-                                    When, while lovelly valley teems with vapour
-                                    around meand eridian sun strikes the upper
-                                    impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>    
-                    </div>
-                    <div class="col-6">
-                        <div class="d-flex mb-5">
-                            <div class="col-2">
-                                <span class="logo-info">
-                                    <i class="size-logo fa-solid fa-wallet"></i>
-                                </span>
-                            </div>
-
-                            <div class="col-10">
-                                <h6 class="title-info">
-                                    BANKING CONSULTING
-                                </h6>
-
-                                <p class="overview-info">
-                                    When, while lovelly valley teems with vapour
-                                    around meand eridian sun strikes the upper
-                                    impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>    
-                    </div>
-
-                    <div class="col-6">
-                        <div class="d-flex mb-5">
-                            <div class="col-2">
-                                <span class="logo-info">
-                                    <i class="size-logo fa-solid fa-bullseye"></i>
-                                </span>
-                            </div>
-
-                            <div class="col-10">
-                                <h6 class="title-info">
-                                    ENTERPRISE CONSULTING
-                                </h6>
-
-                                <p class="overview-info">
-                                    When, while lovelly valley teems with vapour
-                                    around meand eridian sun strikes the upper
-                                    impenetrable foliage of my trees, and but a
-                                </p>
-                            </div>
-                        </div>    
-                    </div>
-
 
                 </div>
-
             </div>
+            
         </div>
+        <!-- component about us -->
+            <AboutUs></AboutUs>
     </div>
+
 </template>
 
 <!-- vuejs -->
 <script>
+import AboutUs from './AboutUs.vue'
 export default{
-    data(){
-        return{
-            name:"The Main",
-        }
+    data() {
+        return {
+            name: "The Main",
+        };
     },
-    
+    components: { AboutUs }
 }
 </script>
 

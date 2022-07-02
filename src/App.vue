@@ -32,7 +32,7 @@ export default {
 @import "./assets/scss/main.scss";
 
 #app {
-  // background-color: #242340;
+  background-color: #242340;
   color: white;
 }
 </style>
