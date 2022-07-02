@@ -1,7 +1,7 @@
 <template>
 <div class="">
     <!-- this is component about us of my page -->
-    <div class="container-fluid">
+    <div class="container-fluid position-relative">
         <div class="row bg-section-aboutUs">
             <div class="col-8 no-padding-left">
                 <img class="w-100" src="../../public/images/business-people-working-together-on-project-and-5FHSKBL.jpg" alt="">
@@ -13,34 +13,32 @@
             </div>
         </div>
 
-
         
-    </div>
+            <div class="container bg-container-aboutUs no-padding-left">
+                <!-- container no left margin -->
+                <div class="row">
 
-    <div class="container-fluid">
-        <div class="container bg-container-aboutUs no-padding-left">
-            <!-- container no left margin -->
-            <div class="row">
+                    <div class="col-6">
+                        <h3 class="p-5 m-5">
+                            WE HELP TO DELIVER
+                            THE BUSINESS CASE
+                        </h3>
+                    </div>
 
-                <div class="col-6">
-                    <h3 class="p-5 m-5">
-                        WE HELP TO DELIVER
-                        THE BUSINESS CASE
-                    </h3>
+                    <div class="col-6">
+                        <p class="p-5 m-2 mt-5">
+                            When, while lovelly valley teems with vapour around
+                            meand meridian sun strikes the upper impenetrable
+                            foliage of my trees, and but a thousand unknown
+                        </p>
+                    </div>
                 </div>
-
-                <div class="col-6">
-                    <p class="p-5 m-2 mt-5">
-                        When, while lovelly valley teems with vapour around
-                        meand meridian sun strikes the upper impenetrable
-                        foliage of my trees, and but a thousand unknown
-                    </p>
-                </div>
+                
+                <button class="myBtn">
+                    GET STARTED
+                </button>
             </div>
-            <button>
-                GET STARTED
-            </button>
-        </div>
+        
     </div>
 </div>
 </template>
@@ -57,7 +55,7 @@ export default{
 </script>
 
 
-<style scoped>
+<style lang="scss" scoped>
 .bg-section-aboutUs{
     background-color: #242340;
 }
@@ -66,7 +64,12 @@ export default{
 }
 .bg-container-aboutUs{
     background-color:  #39ffbf;
-    position: absolute;
+    position: relative;
     left: 0;
+}
+.myBtn{
+    position: absolute;
+    bottom: 0;
+    right: 0;
 }
 </style>
