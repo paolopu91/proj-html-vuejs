@@ -10,10 +10,13 @@
 
             <!-- this is div container my title -->
             <div class="mb-3 d-flex justify-content-between">
-                <h2>
-                    OUR EXPERT TRUST CONSULTANTS
-                    HELP CLIENTS
-                </h2>
+
+                <div class="title-project">
+                    <h2 class="align-text">
+                        OUR EXPERT TRUST CONSULTANTS
+                        HELP CLIENTS
+                    </h2>
+                </div>
 
                 <div>
                     <!-- left arrow -->
@@ -61,6 +64,12 @@ export default{
 </script>
 
 <style scoped>
+.title-project{
+    width: 650px;
+}
+.align-text{
+    text-align: left;
+}
 .line{
     border-bottom: 5px solid #39FFBF;
     width: 50px;

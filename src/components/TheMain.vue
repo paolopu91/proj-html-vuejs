@@ -115,6 +115,8 @@
             <!-- component the project -->
             <TheProject></TheProject>
             
+            <!-- component the testimonials -->
+            <TheTestimonials></TheTestimonials>
     </div>
 
 </template>
@@ -123,13 +125,14 @@
 <script>
 import AboutUs from './AboutUs.vue'
 import TheProject from './TheProject.vue';
+import TheTestimonials from './TheTestimonials.vue';
 export default{
     data() {
         return {
             name: "The Main",
         };
     },
-    components: { AboutUs, TheProject }
+    components: { AboutUs, TheProject, TheTestimonials }
 }
 </script>
 
