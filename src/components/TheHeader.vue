@@ -101,20 +101,23 @@ export default{
 <style lang="scss" scoped>
 .header-section{
     background-color: #242340;
+    height: 100vh;
 }
 .logoHeader{
     width: 150px;
 }
 .my-left-col{
     width: 30%;
+    height: 100vh;
 }
 .my-right-col{
     width:70%;
     padding-right: 0;
+    height: 100vh;
 }
 .imageHeader{
    width: 100%;
-   height: 100vh;
+   height: 100%;
 }
 .my-nav-links{
     position: absolute;
