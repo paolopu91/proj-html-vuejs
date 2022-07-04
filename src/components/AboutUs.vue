@@ -3,11 +3,13 @@
     <!-- this is component about us of my page -->
     <div class="container-fluid position-relative">
         <div class="row bg-section-aboutUs">
+            <!-- col-left with image -->
             <div class="col-8 no-padding-left">
                 <img class="w-100" src="../../public/images/business-people-working-together-on-project-and-5FHSKBL.jpg" alt="">
                 
             </div>
-
+            
+            <!-- col right with text -->
             <div class="col-4">
 
                 <div class="col-right-text">
@@ -35,7 +37,7 @@
             </div>
         </div>
 
-        
+        <!-- container under my two cols about us -->
             <div class="container bg-container-aboutUs no-padding-left">
                 <!-- container no left margin -->
                 <div class="row">
