@@ -8,7 +8,7 @@
             <div class="row d-flex">
                 <!-- col-left -->
                 <!-- here i will use logo text and buttons -->
-                <div class="my-left-col">
+                <div class="col-4 my-left-col">
                     <div>
                         <img class="logoHeader" src="../../public/images/logotype.png" alt="">
                     </div>
@@ -41,7 +41,7 @@
 
                 <!-- col-right -->
                 <!-- here i will use image and nav link -->
-                <div class="my-right-col">
+                <div class="col-8 my-right-col">
                     
                     <!-- image of my col right -->
                     <img class="imageHeader" src="../../public/images/portrait-of-young-architect-woman-on-meeting-KFZCE3A.jpg" alt="">
@@ -107,11 +107,9 @@ export default{
     width: 150px;
 }
 .my-left-col{
-    width: 30%;
     height: 100vh;
 }
 .my-right-col{
-    width:70%;
     padding-right: 0;
     height: 100vh;
 }
