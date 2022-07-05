@@ -33,26 +33,24 @@
                 <div class="row">
 
                     <!-- testimonal 1 -->
-                    <div class="col">
-                        <div class="py-5 px-3 ">
+                    <div class="col" v-for="(testimonial,i) in getTestimonialsReview" :key="i">
+                        <div class="py-5 px-3">
                             <p class="testimonial-review">
-                                When,while lovely valley teems with vapour
-                                around meand eridian sun strikes the upper impenetrable foliage of my trees,
-                                and but a thousand unknown plants are noticed by when i hear the buzz of the little.
+                                {{testimonial.review}}
                             </p>
 
                             <h5 class="name-testimonial">
-                                Vera Duncan
+                                {{testimonial.name}}
                             </h5>
 
                             <span class="company">
-                                Amazon Inc.
+                                {{testimonial.company}}
                             </span>
                         </div>
                     </div>
 
                     <!-- testimonial 2 -->
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="py-5 px-3 ">
                             <p class="testimonial-review">
                                 When,while lovely valley teems with vapour
@@ -68,10 +66,10 @@
                                 Amazon Inc.
                             </span>
                         </div>
-                    </div>
+                    </div> -->
 
                     <!-- testimonal 3 -->
-                    <div class="col">
+                    <!-- <div class="col">
                         <div class="py-5 px-3 ">
                             <p class="testimonial-review">
                                 When,while lovely valley teems with vapour
@@ -87,7 +85,7 @@
                                 Amazon Inc.
                             </span>
                         </div>
-                    </div>
+                    </div> -->
 
                 </div>
         </div>
@@ -98,12 +96,19 @@
 
 
 <script>
+import {state} from "../store";
+
 export default{
     data(){
         return{
             name:"The Testimonials"
         }
     },
+    computed:{
+        getTestimonialsReview(){
+            return state.testimonialsReview
+        }
+    }
 }
 </script>
 
