@@ -140,13 +140,18 @@ h1{
     color: black;
     font-size: 20px;
     border-style: none;
+
+    &:hover{
+        background-color: #00b87d;
+        color: white;
+    }
 }
 .change-color{
     color: #39FFBF;
 }
 .header-button-play{
     border: 1px solid white;
-    padding: 1rem;
-    border-radius: 50%;
+    padding: .5rem .7rem;
+    border-radius: 100%;
 }
 </style>

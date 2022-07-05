@@ -100,6 +100,10 @@ export default{
     padding: .5rem 2rem;
     color: white;
 
+    &:hover{
+        background-color: #f00e2e;
+    }
+
 }
 .green-line{
     border-bottom: 5px solid #39FFBF;

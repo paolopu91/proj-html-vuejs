@@ -110,6 +110,11 @@ export default{
     border: none;
     padding: .8rem 3rem;
     font-size: 15px;
+
+    &:hover{
+        background-color: #35ffbf;
+        color: white;
+    }
 }
 .container-review-blog{
     position: absolute;

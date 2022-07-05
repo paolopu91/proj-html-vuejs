@@ -70,7 +70,7 @@ export default{
 </script>
 
 <!-- styles css/scss -->
-<style scoped>
+<style lang="scss" scoped>
 .footer-line{
     text-align: center;
     border-bottom: 3px solid rgb(155,155,155);
@@ -81,5 +81,9 @@ export default{
     color: rgb(155,155,155);
     font-size: 15px;
     margin: 0 1rem;
+
+     &:hover{
+        color:white;
+    }
 }
 </style>

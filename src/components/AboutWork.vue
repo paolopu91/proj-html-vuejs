@@ -64,6 +64,10 @@ export default{
         padding: .7rem 2rem;
         color:white;
         font-size: 20px;
+
+        &:hover{
+            background-color: #1d1c30;
+        }
     }
 }
 </style>
