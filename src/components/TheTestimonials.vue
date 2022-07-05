@@ -33,7 +33,7 @@
                 <div class="row">
 
                     <!-- testimonal 1 -->
-                    <div class="col" v-for="(testimonial,i) in getTestimonialsReview" :key="i">
+                    <div class="col position-relative" v-for="(testimonial,i) in getTestimonialsReview" :key="i">
                         <div class="py-5 px-3">
                             <p class="testimonial-review">
                                 {{testimonial.review}}
@@ -46,6 +46,25 @@
                             <span class="company">
                                 {{testimonial.company}}
                             </span>
+                        </div>
+
+                        <!-- div with image hover -->
+                        <div class="testimonialPhotoOver">
+                            <img class="w-100 h-100" src="../../public/images/oliver-ragfelt-488196-2.jpg" :alt="testimonial.name">
+                            
+                            <div class="py-5 px-3 hoverReview">
+                                <p class="testimonial-review">
+                                    {{testimonial.review}}
+                                </p>
+
+                                <h5 class="name-testimonial">
+                                    {{testimonial.name}}
+                                </h5>
+
+                                <span class="company">
+                                    {{testimonial.company}}
+                                </span>
+                            </div>
                         </div>
                     </div>
 
@@ -130,12 +149,41 @@ export default{
 .testimonial-review{
     color: rgb(155,155,155);
     font-size: 15px;
+    &:hover{
+        color: white;
+    }
 }
 .name-testimonial{
     color: black;
+    &:hover{
+        color: white;
+    }
 }
 .company{
     color:rgb(155,155,155);
     font-size: 15px;
+    &:hover{
+        color: white;
+    }
+}
+.testimonialPhotoOver{
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    opacity: 0;
+    
+    &:hover{
+        opacity: 1;
+    }
+
+    .hoverReview{
+        position: absolute;
+        top: 0;
+        bottom: 0;
+        right: 0;
+        left: 0;
+    }
 }
 </style>
