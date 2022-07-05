@@ -28,7 +28,7 @@
         </div>
         
         <!-- container for testimonials -->
-        <div class="container bg-white ">
+        <div class="container bg-white my-container">
 
                 <div class="row">
 
@@ -132,6 +132,10 @@ export default{
 </script>
 
 <style lang="scss" scoped>
+.my-container{
+    position: absolute;
+    right: 0;
+}
 .margin-top{
     margin-top:7rem;
 }

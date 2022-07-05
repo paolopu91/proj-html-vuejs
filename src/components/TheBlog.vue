@@ -99,7 +99,7 @@ export default{
 
 <style lang="scss" scoped>
 .margin-top{
-    margin-top: 10rem;
+    margin-top: 25rem;
 }
 .line{
     border-bottom: 5px solid #39FFBF;

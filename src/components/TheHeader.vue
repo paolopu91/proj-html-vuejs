@@ -9,7 +9,7 @@
                 <!-- col-left -->
                 <!-- here i will use logo text and buttons -->
                 <div class="col-4 my-left-col">
-                    <div>
+                    <div class="mt-3">
                         <img class="logoHeader" src="../../public/images/logotype.png" alt="">
                     </div>
                     <div class="d-flex flex-column position-absolute my-title-header">
@@ -25,7 +25,7 @@
                         </h1>
 
                         <!-- container button header -->
-                        <div>
+                        <div class="mt-5">
                             <button class="header-button px-4 py-2">
                                 READ MORE
                             </button>
@@ -49,9 +49,9 @@
                     <!-- my nav links -->
                     <!-- i will stamp this with v-for  -->
                     <div>
-                        <ul class="list-unstyled my-nav-links d-flex">
+                        <ul class="list-unstyled my-nav-links d-flex mt-4">
                             <li class="px-2 " v-for="(link,i) in getNavLink" :key="i">
-                                <a class="text-white nav-link" href="#">{{link.name}}</a>
+                                <a class="color-text-nav-link nav-link" href="#">{{link.name}}</a>
                             </li>
                         </ul>
                     </div>
@@ -144,15 +144,16 @@ h1{
 }
 .header-button{
     background-color: #39FFBF;
-    color: black;
     font-size: 20px;
     border-style: none;
-
-    &:hover{
-        background-color: #00b87d;
-        color: white;
-    }
 }
+.color-text-nav-link{
+        color: white;
+
+        &:hover{
+            color: black;
+        }
+    }
 .change-color{
     color: #39FFBF;
 }
