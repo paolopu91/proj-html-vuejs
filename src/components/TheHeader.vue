@@ -50,7 +50,7 @@
                     <!-- i will stamp this with v-for  -->
                     <div>
                         <ul class="list-unstyled my-nav-links d-flex">
-                            <li class="px-2 " v-for="(link,i) in navLinks" :key="i">
+                            <li class="px-2 " v-for="(link,i) in getNavLink" :key="i">
                                 <a class="text-white nav-link" href="#">{{link.name}}</a>
                             </li>
                         </ul>
@@ -65,32 +65,39 @@
 
 <!-- vuejs -->
 <script>
+import {state} from "../store";
+
 export default{
     data(){
         return{
             name:"The Header",
-            navLinks:[
-                {
-                    name:"HOME"
-                },
-                {
-                    name:"ABOUT"
-                },
-                {
-                    name:"PROJECT"
-                },
-                {
-                    name:"SERVICES"
-                },
-                {
-                    name:"BLOG"
-                },
-                {
-                    name:"CONTACT"
-                },
-            ]
+            // navLinks:[
+            //     {
+            //         name:"HOME"
+            //     },
+            //     {
+            //         name:"ABOUT"
+            //     },
+            //     {
+            //         name:"PROJECT"
+            //     },
+            //     {
+            //         name:"SERVICES"
+            //     },
+            //     {
+            //         name:"BLOG"
+            //     },
+            //     {
+            //         name:"CONTACT"
+            //     },
+            // ]
         }
     },
+    computed:{
+        getNavLink(){
+            return state.navLink
+        }
+    }
     
 }
 </script>
