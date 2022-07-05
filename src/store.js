@@ -20,7 +20,7 @@ export const state = Vue.observable({
         name:"CONTACT",
     },
      
-        ]    
+        ],  
         
          
          

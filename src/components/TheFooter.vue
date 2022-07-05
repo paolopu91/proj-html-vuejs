@@ -11,12 +11,12 @@
             </div>
             <div>
                 <!-- link -->
-                <a class="link-footer" href="#">HOME</a>
-                <a class="link-footer" href="#">ABOUT</a>
+                <a class="link-footer" href="#" v-for="(link,i) in getFooterLinks" :key="i">{{link.name}}</a>
+                <!-- <a class="link-footer" href="#">ABOUT</a>
                 <a class="link-footer" href="#">PROJECTS</a>
                 <a class="link-footer" href="#">SERVICES</a>
                 <a class="link-footer" href="#">BLOG</a>
-                <a class="link-footer" href="#">CONTACT</a>
+                <a class="link-footer" href="#">CONTACT</a> -->
             </div>
             <div class="d-flex">
                 <!-- socials -->
@@ -59,12 +59,19 @@
 
 <!-- vuejs -->
 <script>
+import {state} from "../store"
+
 export default{
     data(){
         return{
             name:"The Footer",
         }
     },
+    computed:{
+        getFooterLinks(){
+            return state.navLink
+        }
+    }
     
 }
 </script>
