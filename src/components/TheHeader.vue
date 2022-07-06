@@ -146,6 +146,10 @@ h1{
     background-color: #39FFBF;
     font-size: 20px;
     border-style: none;
+
+    &:hover{
+        background-color: #21e9a9;
+    }
 }
 .color-text-nav-link{
         color: white;

@@ -9,6 +9,7 @@
     <!-- footer component -->
     <TheFooter></TheFooter>
 
+    <!-- this project format is 1400x835 px -->
   </div>
 </template>
 
